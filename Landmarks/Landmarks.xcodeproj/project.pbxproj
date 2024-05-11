@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C627A3842BEF1CE500EF724B /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C627A3832BEF1CE500EF724B /* LandmarkDetailView.swift */; };
 		C65A82DB2BEEFE50006CAEAE /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A82DA2BEEFE50006CAEAE /* LandmarksApp.swift */; };
 		C65A82DD2BEEFE50006CAEAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A82DC2BEEFE50006CAEAE /* ContentView.swift */; };
 		C65A82DF2BEEFE50006CAEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65A82DE2BEEFE50006CAEAE /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C627A3832BEF1CE500EF724B /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
 		C65A82D72BEEFE50006CAEAE /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65A82DA2BEEFE50006CAEAE /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		C65A82DC2BEEFE50006CAEAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				C65A82EA2BEF0147006CAEAE /* MapView.swift */,
 				C65A82F62BEF1911006CAEAE /* LandmarkListView.swift */,
 				C65A82F42BEF140E006CAEAE /* LandmarkRowView.swift */,
+				C627A3832BEF1CE500EF724B /* LandmarkDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				C65A82DD2BEEFE50006CAEAE /* ContentView.swift in Sources */,
 				C65A82EB2BEF0147006CAEAE /* MapView.swift in Sources */,
+				C627A3842BEF1CE500EF724B /* LandmarkDetailView.swift in Sources */,
 				C65A82F72BEF1911006CAEAE /* LandmarkListView.swift in Sources */,
 				C65A82DB2BEEFE50006CAEAE /* LandmarksApp.swift in Sources */,
 				C65A82E92BEF004A006CAEAE /* CircleImage.swift in Sources */,
