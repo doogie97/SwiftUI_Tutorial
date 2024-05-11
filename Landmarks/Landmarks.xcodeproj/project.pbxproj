@@ -60,6 +60,7 @@
 				C65A82E82BEF004A006CAEAE /* CircleImage.swift */,
 				C65A82EA2BEF0147006CAEAE /* MapView.swift */,
 				C65A82DE2BEEFE50006CAEAE /* Assets.xcassets */,
+				C65A82EC2BEF0E78006CAEAE /* landmarkData.json */,
 				C65A82E02BEEFE50006CAEAE /* Preview Content */,
 			);
 			path = Landmarks;
@@ -133,6 +134,7 @@
 			files = (
 				C65A82E22BEEFE50006CAEAE /* Preview Assets.xcassets in Resources */,
 				C65A82DF2BEEFE50006CAEAE /* Assets.xcassets in Resources */,
+				C65A82ED2BEF0E78006CAEAE /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
