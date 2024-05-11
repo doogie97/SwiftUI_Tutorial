@@ -1,5 +1,5 @@
 //
-//  LandmarkView.swift
+//  LandmarkRowView.swift
 //  Landmarks
 //
 //  Created by Doogie on 5/11/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LandmarkView: View {
+struct LandmarkRowView: View {
     let landmark: Landmark
     var body: some View {
         HStack {
@@ -22,7 +22,7 @@ struct LandmarkView: View {
 
 #Preview {
     Group {
-        LandmarkView(landmark: landmarks[0])
-        LandmarkView(landmark: landmarks[1])
+        LandmarkRowView(landmark: landmarks[0])
+        LandmarkRowView(landmark: landmarks[1])
     }
 }
