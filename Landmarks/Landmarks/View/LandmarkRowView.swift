@@ -16,6 +16,8 @@ struct LandmarkRowView: View {
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
+            Image(systemName: "star.fill")
+                .foregroundStyle(.yellow)
         }
     }
 }
