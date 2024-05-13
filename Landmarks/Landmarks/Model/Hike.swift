@@ -10,7 +10,7 @@ import Foundation
 struct Hike: Codable, Hashable, Identifiable {
     var id: Int
     var name: String
-    var distnance: Double
+    var distance: Double
     var difficulty: Int
     var observations: [Observation]
     
@@ -18,7 +18,7 @@ struct Hike: Codable, Hashable, Identifiable {
     
     var distanceText: String {
         Hike.fomatter
-            .string(fromValue: distnance, unit: .kilometer)
+            .string(fromValue: distance, unit: .kilometer)
     }
     
     struct Observation: Codable, Hashable {
