@@ -178,9 +178,9 @@
 			children = (
 				C65A82DC2BEEFE50006CAEAE /* ContentView.swift */,
 				C627A3892BEF5A0800EF724B /* HexagonParameters.swift */,
+				C627A3872BEF4F6100EF724B /* Landmarks */,
 				C65358942BF6FDE200E8590D /* Categories */,
 				C63607A02BF2136900EC617A /* Hikes */,
-				C627A3872BEF4F6100EF724B /* Landmarks */,
 				C627A3882BEF4F7600EF724B /* Helper */,
 			);
 			path = View;
