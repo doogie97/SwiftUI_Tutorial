@@ -42,7 +42,7 @@ struct ProfileSummaryView: View {
                 
                 Divider()
                 VStack(alignment: .leading) {
-                    Text("Completed Badges")
+                    Text("Recent Hikes")
                         .font(.headline)
                     HikeView(hike: modelData.hikes[0])
                 }
