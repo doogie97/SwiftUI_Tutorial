@@ -14,7 +14,7 @@ struct CategoryHomeView: View {
         NavigationSplitView {
             List {
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    Text(key)
+                    CategoryRowView(categoryName: key, item: modelData.categories[key] ?? [])
                 }
             }
                 .navigationTitle("Featured")
