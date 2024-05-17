@@ -21,7 +21,7 @@ struct ProfileHostView: View {
             if editMode?.wrappedValue == .inactive {
                 ProfileSummaryView(profile: modelData.profile)
             } else {
-                Text("Profile Editor")
+                ProfileEditor(profile: $draftProfile)
             }
             
         }
