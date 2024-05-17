@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ProfileHostView: View {
+    @Environment(ModelData.self) var modelData
     @State private var draftProfile = Profile.default
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            ProfileSummaryView(profile: draftProfile)
+                ProfileSummaryView(profile: modelData.profile)
         }
         .padding()
-
     }
 }
 
 #Preview {
     ProfileHostView()
+        .environment(ModelData())
 }
