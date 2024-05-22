@@ -41,6 +41,7 @@
 		C65A82F72BEF1911006CAEAE /* LandmarkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A82F62BEF1911006CAEAE /* LandmarkListView.swift */; };
 		C6F34B762BFDE1F50006AF7E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F34B752BFDE1F50006AF7E /* PageViewController.swift */; };
 		C6F34B782BFDE3630006AF7E /* FeatureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F34B772BFDE3630006AF7E /* FeatureCardView.swift */; };
+		C6F34B7A2BFDE6790006AF7E /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F34B792BFDE6790006AF7E /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		C65A82F62BEF1911006CAEAE /* LandmarkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkListView.swift; sourceTree = "<group>"; };
 		C6F34B752BFDE1F50006AF7E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		C6F34B772BFDE3630006AF7E /* FeatureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardView.swift; sourceTree = "<group>"; };
+		C6F34B792BFDE6790006AF7E /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			children = (
 				C6F34B752BFDE1F50006AF7E /* PageViewController.swift */,
 				C6F34B772BFDE3630006AF7E /* FeatureCardView.swift */,
+				C6F34B792BFDE6790006AF7E /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				C627A38E2BEF605B00EF724B /* BadgeSymbol.swift in Sources */,
 				C65A82F72BEF1911006CAEAE /* LandmarkListView.swift in Sources */,
 				C65A82DB2BEEFE50006CAEAE /* LandmarksApp.swift in Sources */,
+				C6F34B7A2BFDE6790006AF7E /* PageView.swift in Sources */,
 				C627A38C2BEF5AFD00EF724B /* BadgeBackground.swift in Sources */,
 				C65358A52BF7869800E8590D /* ProfileEditor.swift in Sources */,
 				C65A82E92BEF004A006CAEAE /* CircleImage.swift in Sources */,
