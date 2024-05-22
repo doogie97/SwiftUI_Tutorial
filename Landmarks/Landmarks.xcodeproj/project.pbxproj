@@ -226,8 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				C6F34B752BFDE1F50006AF7E /* PageViewController.swift */,
-				C6F34B772BFDE3630006AF7E /* FeatureCardView.swift */,
 				C6F34B792BFDE6790006AF7E /* PageView.swift */,
+				C6F34B772BFDE3630006AF7E /* FeatureCardView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
