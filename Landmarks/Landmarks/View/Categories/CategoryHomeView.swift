@@ -14,11 +14,7 @@ struct CategoryHomeView: View {
     var body: some View {
         NavigationSplitView {
             List {
-                modelData.features.first?.image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                PageView(pages: modelData.features.map { FeatureCardView(landmark: $0) })
                     .listRowInsets(EdgeInsets())
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
                     CategoryRowView(categoryName: key, item: modelData.categories[key] ?? [])
