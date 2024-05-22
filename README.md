@@ -8,4 +8,4 @@
 
 
 
-전체적은 정리는 Pull requests에 정리 완료
+전체적은 정리는 Pull requests 및 [블로그 포스팅](https://dev-doogie.tistory.com/23)에 정리 완료
